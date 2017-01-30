@@ -1,0 +1,33 @@
+.projects {
+	.project {
+		width: 33.333%;
+		float: left;
+		background-size: cover;
+		min-height: 400px;
+		background-position: center center;
+		position: relative;
+		font-weight: 300;
+
+		.project_name {
+			background-color: $white;
+			padding: 20px;
+			display: inline-block;
+			position: relative;
+		}
+
+		&:before {
+			content: '';
+			@include full();
+			background-color: rgba($black, 0);
+			transition: background-color $standard-transition;
+		}
+
+		&:hover {
+			&:before {
+				background-color: rgba($black, .4);
+			}
+		}
+	}
+
+	@include clearfix();
+}

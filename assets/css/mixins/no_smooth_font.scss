@@ -1,0 +1,4 @@
+@mixin no_smooth_font() {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

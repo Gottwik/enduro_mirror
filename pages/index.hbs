@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mirror - enduro.js theme</title>
+		<link rel="stylesheet" href="/assets/css/main.css">
+
+		{{!-- fonts --}}
+		<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+
+		{{!-- font awesome --}}
+		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	</head>
+	<body>
+
+		<div class="panel screen" style="background-image: url('{{main_image}}')">
+			<div class="veil"></div>
+			<div class="panel_body fullwidth">
+
+				<div class="contentbox">
+					<div class="contentbox_content">
+						<h1>{{name}}</h1>
+						<h2>{{specialty}}</h2>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="panel">
+			<div class="panel_body">
+				<div class="row">
+					<div class="col-md-8 offset-md-2">
+						<h1>{{name}}</h1>
+						<h2>{{specialty}}</h2>
+						<p>{{background}}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="panel projects">
+			<div class="panel_body fullwidth">
+
+				{{#each projects}}
+					<a href="{{link}}" target="_blank" class="project" style="background-image: url('{{image}}')">
+						<div class="project_info">
+							<div class="project_name">{{title}}</div>
+						</div>
+					</a>
+				{{/each}}
+
+			</div>
+		</div>
+
+		<div class="panel socials color_2">
+			<div class="panel_body">
+				{{#each social}}
+					<a class="social" href="{{link}}">
+						<div class="social_icon">
+							<i class="fa fa-{{icon}}"></i>
+						</div>
+						<div class="wedge-3x"></div>
+						<div class="social_text">
+							{{text}}
+						</div>
+					</a>
+				{{/each}}
+			</div>
+		</div>
+
+		<div class="panel screen" style="background-image: url('https://images.pexels.com/photos/92323/pexels-photo-92323.jpeg?w=1920&auto=compress&cs=tinysrgb')">
+			<div class="veil"></div>
+			<div class="panel_body fullwidth">
+
+				<div class="contentbox">
+					<div class="contentbox_content">
+						<h1>Book enthusiast</h1>
+						<h2>Books are the old-school internet</h2>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="panel color_3 text_center dark">
+			<div class="panel_body">
+				<h2>Need a deep learning software developer?</h2>
+				<div class="wedge-2x"></div>
+				<h3>I am actively looking for new challenges</h3>
+				<div class="wedge-3x"></div>
+				<a class="btn" href="mailto:gottwik@gmail.com">Contact me</a>
+			</div>
+		</div>
+
+		<footer class="panel color_1 dark">
+			<div class="panel_body">
+				<div class="credits">Shout out to <a href="https://www.pexels.com/">Pexels</a> for copyright-free stock images</div>
+			</div>
+		</footer>
+
+	</body>
+
+	<script data-main="/assets/js/main.js" src="/assets/vendor/requirejs/require.js"></script>
+</html>

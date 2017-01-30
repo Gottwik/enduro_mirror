@@ -1,0 +1,4 @@
+.veil {
+	@include full();
+	background: linear-gradient(-15deg, $white 0%, rgba($white, 0) 25%, rgba($white, 0) 80%, rgba($white, 1) 100%);
+}

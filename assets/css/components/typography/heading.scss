@@ -1,0 +1,14 @@
+h1, h2, h3, h4, h5 {
+	font-weight: 100;
+	margin-top: -5px;
+	margin-bottom: 0;
+}
+
+h1 {
+	@include font_size(xl);
+}
+
+
+h2 {
+	@include font_size(lg);
+}

@@ -1,0 +1,12 @@
+.panel_body {
+	position: relative;
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 50px;
+	z-index: 1;
+
+	&.fullwidth {
+		max-width: none;
+		padding: 0;
+	}
+}

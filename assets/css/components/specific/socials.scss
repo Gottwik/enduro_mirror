@@ -1,0 +1,29 @@
+.socials {
+	text-align: center;
+
+	.social {
+		width: 33.333%;
+		float: left;
+		padding: 30px;
+		cursor: pointer;
+		transition: background-color $standard-transition;
+
+		i {
+			@include font_size(icon4x);
+			display: block;
+			color: rgba($black, .6);
+		}
+
+		.social_text {
+			@include font_size(md);
+		}
+
+		&:hover {
+			background-color: darken(scheme(2), 5%);
+		}
+	}
+
+	.panel_body {
+		@include clearfix();
+	}
+}
