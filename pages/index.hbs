@@ -12,6 +12,11 @@
 	</head>
 	<body>
 
+		<a class="enduro_stamp" href="/admin">
+			<div>Edit this page</div>
+			<div>{{>enduro_e}}</div>
+		</a>
+
 		<div class="panel screen" style="background-image: url('{{main_image}}')">
 			<div class="veil"></div>
 			<div class="panel_body fullwidth">
@@ -92,9 +97,11 @@
 			</div>
 		</div>
 
-		<footer class="panel color_4 dark text_center">
+		<footer class="panel color_4 dark text_center" style="background-color: {{footer_background_color}}">
 			<div class="panel_body">
 				<div class="credits">{{footer_text}}</div>
+				<div class="wedge-2x"></div>
+				<a href="http://www.endurojs.com/" target="_blank"><img src="https://s3-eu-west-1.amazonaws.com/enduro.website/direct_uploads/1484647615_made_with_enduro.png"></a>
 			</div>
 		</footer>
 

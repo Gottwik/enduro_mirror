@@ -4,7 +4,8 @@
 	background-color: scheme(1);
 	display: inline-block;
 
-	.contentbox_content {
-
+	@include media-breakpoint-down(xs) {
+		width: 100%;
+		padding: 20px;
 	}
 }

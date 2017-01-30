@@ -1,8 +1,8 @@
 {
-	"project_name": "set name here",
-	"project_slug": "sn",
+	"project_name": "enduro_mirror",
+	"project_slug": "em",
 	"s3": {
-		"bucket": "enduro.sethere",
+		"bucket": "enduro.mirror",
 		"region": "eu-west-1"
 	}
 }

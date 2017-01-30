@@ -6,9 +6,15 @@ h1, h2, h3, h4, h5 {
 
 h1 {
 	@include font_size(xl);
+	@include media-breakpoint-down(md) {
+		@include font_size(lg);
+	}
 }
 
 
 h2 {
 	@include font_size(lg);
+	@include media-breakpoint-down(md) {
+		@include font_size(md);
+	}
 }

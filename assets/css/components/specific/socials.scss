@@ -18,7 +18,13 @@
 		}
 
 		&:hover {
-			background-color: darken(scheme(2), 5%);
+			.social_text {
+				text-decoration: underline;
+			}
+		}
+
+		@include media-breakpoint-down(md) {
+			width: 100%;
 		}
 	}
 

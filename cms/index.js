@@ -72,5 +72,7 @@
 	cta_tagline: 'Need a deep learning software developer?',
 	cta_text: 'I am actively looking for new challenges',
 	contact_email: 'contact@endurojs.com',
-	footer_text: '2016 @enduro.js mirror theme'
+	footer_text: '2016 @enduro.js mirror theme',
+	$footer_background_color_type: 'colorpicker',
+	footer_background_color: '#7e0343'
 }
