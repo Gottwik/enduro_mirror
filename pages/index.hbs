@@ -52,7 +52,7 @@
 			</div>
 		</div>
 
-		<div class="panel socials color_2">
+		<div class="panel socials color_3">
 			<div class="panel_body">
 				{{#each social}}
 					<a class="social" href="{{link}}">
@@ -68,33 +68,33 @@
 			</div>
 		</div>
 
-		<div class="panel screen" style="background-image: url('https://images.pexels.com/photos/92323/pexels-photo-92323.jpeg?w=1920&auto=compress&cs=tinysrgb')">
+		<div class="panel screen" style="background-image: url('{{hobby_background}}')">
 			<div class="veil"></div>
 			<div class="panel_body fullwidth">
 
 				<div class="contentbox">
 					<div class="contentbox_content">
-						<h1>Book enthusiast</h1>
-						<h2>Books are the old-school internet</h2>
+						<h1>{{hobby_title}}</h1>
+						<h2>{{hobby_subtitle}}</h2>
 					</div>
 				</div>
 
 			</div>
 		</div>
 
-		<div class="panel color_3 text_center dark">
+		<div class="panel color_3 text_center">
 			<div class="panel_body">
-				<h2>Need a deep learning software developer?</h2>
+				<h2>{{cta_tagline}}</h2>
 				<div class="wedge-2x"></div>
-				<h3>I am actively looking for new challenges</h3>
+				<h3>{{cta_text}}</h3>
 				<div class="wedge-3x"></div>
 				<a class="btn" href="mailto:gottwik@gmail.com">Contact me</a>
 			</div>
 		</div>
 
-		<footer class="panel color_1 dark">
+		<footer class="panel color_4 dark text_center">
 			<div class="panel_body">
-				<div class="credits">Shout out to <a href="https://www.pexels.com/">Pexels</a> for copyright-free stock images</div>
+				<div class="credits">{{footer_text}}</div>
 			</div>
 		</footer>
 

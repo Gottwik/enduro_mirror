@@ -8,8 +8,8 @@
 	text-decoration: none;
 
 	.dark & {
-		color: $white;
-		border-color: $white;
+		color: scheme(1);
+		border-color: scheme(1);
 	}
 
 	&:hover {
