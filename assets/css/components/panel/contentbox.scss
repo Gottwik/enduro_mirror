@@ -4,6 +4,10 @@
 	background-color: scheme(1);
 	display: inline-block;
 
+	@include media-breakpoint-down(lg) {
+		padding: 30px;
+	}
+
 	@include media-breakpoint-down(xs) {
 		width: 100%;
 		padding: 20px;
