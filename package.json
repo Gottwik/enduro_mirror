@@ -1,5 +1,5 @@
 {
-	"name": "enduro mirror",
+	"name": "enduro_mirror",
 	"version": "1.0.0",
 	"description": "Personal portfolio theme for enduro.js",
 	"main": "assets/vendor/enduro/index.js",
