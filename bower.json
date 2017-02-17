@@ -1,12 +1,12 @@
 {
-  "name": "enduro_scaffolding",
-  "description": "",
+  "name": "mirror - enduro.js theme",
+  "description": "Personal portfolio theme for enduro.js",
   "main": "assets/vendor/enduro/index.js",
   "authors": [
-    "author goes here"
+    "Martin Gottweis"
   ],
   "license": "ISC",
-  "homepage": "",
+  "homepage": "mirror.endurojs.com",
   "ignore": [
     "**/.*",
     "node_modules",

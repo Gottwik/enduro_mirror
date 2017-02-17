@@ -1,13 +1,13 @@
 {
-	"name": "enduro_scaffolding",
+	"name": "mirror - enduro.js theme",
 	"version": "1.0.0",
-	"description": "",
+	"description": "Personal portfolio theme for enduro.js",
 	"main": "assets/vendor/enduro/index.js",
 	"scripts": {
 		"postinstall": "./node_modules/bower/bin/bower install",
 		"start": "node_modules/.bin/enduro start"
 	},
-	"author": "author goes here",
+	"author": "Martin Gottweis",
 	"license": "ISC",
 	"dependencies": {
 		"bower": "^1.7.7",

@@ -7,15 +7,15 @@
 		{{!-- fonts --}}
 		<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
 
-		{{!-- font awesome --}}
-		<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 	</head>
 	<body>
 
-		<a class="enduro_stamp" href="/admin">
-			<div>Edit this page</div>
-			<div>{{>enduro_e}}</div>
-		</a>
+		{{#if display_edit_stamp}}
+			<a class="enduro_stamp" href="/admin">
+				<div>Edit this page</div>
+				<div>{{>enduro_e}}</div>
+			</a>
+		{{/if}}
 
 		<div class="panel screen" style="background-image: url('{{main_image}}')">
 			<div class="veil"></div>
