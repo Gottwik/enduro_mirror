@@ -4,6 +4,10 @@
 	background-color: scheme(1);
 	display: inline-block;
 
+	.contentbox_content {
+		text-align: center;
+	}
+
 	@include media-breakpoint-down(lg) {
 		padding: 30px;
 	}

@@ -62,7 +62,7 @@
 		{
 			$icon_type: 'fa',
 			icon: 'stack-overflow',
-			text: 'I am also active at stackoverflow',
+			text: 'I am also active on stackoverflow',
 			link: 'http://stackoverflow.com/cv/martingottweis'
 		}
 	],
