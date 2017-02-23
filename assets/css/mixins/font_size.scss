@@ -1,7 +1,7 @@
-@mixin font_size($name: 'xs', $important: false) {
+@mixin font_size($name: 'xs', $important: false, $scale: 1) {
 	@if $important {
-		font-size: map-get($font-sizes, $name) !important;
+		font-size: $scale * map-get($font-sizes, $name) !important;
 	} @else {
-		font-size: map-get($font-sizes, $name);
+		font-size: $scale * map-get($font-sizes, $name);
 	}
 }

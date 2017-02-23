@@ -6,18 +6,35 @@ h1, h2, h3, h4, h5 {
 
 h1 {
 	@include font_size(xl);
-	@include media-breakpoint-down(lg) {
-		@include font_size(lg);
-	}
 	margin-top: -10px;
-	margin-left: 10px;
 	margin-bottom: 10px;
+
+	@include media-breakpoint-down(lg) {
+		@include font_size(xl, false, .8);
+	}
+
+	@include media-breakpoint-down(md) {
+		@include font_size(xl, false, .6);
+	}
+
+	@include media-breakpoint-down(sm) {
+		@include font_size(lg, false, 1.5);
+	}
 }
 
 
 h2 {
 	@include font_size(lg);
+
 	@include media-breakpoint-down(lg) {
+		@include font_size(lg, false, .8);
+	}
+
+	@include media-breakpoint-down(md) {
+		@include font_size(lg, false, .6);
+	}
+
+	@include media-breakpoint-down(sm) {
 		@include font_size(md);
 	}
 }
