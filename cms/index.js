@@ -76,5 +76,6 @@
 	footer_text: '2017 @enduro.js mirror theme',
 	$footer_background_color_type: 'colorpicker',
 	footer_background_color: '#7e0343',
+	page_title: 'Mirror - enduro.js theme',
 	display_edit_stamp: true
 }
