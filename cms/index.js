@@ -77,5 +77,18 @@
 	$footer_background_color_type: 'colorpicker',
 	footer_background_color: '#7e0343',
 	page_title: 'Mirror - enduro.js theme',
-	display_edit_stamp: true
+	display_edit_stamp: true,
+	$style_expander: true,
+	$style_info: 'won\'t work with the temp action',
+	style: {
+		$background_color_size: 'inline',
+		$background_color_type: 'colorpicker',
+		background_color: '#ffffff',
+		$text_color_size: 'inline',
+		$text_color_type: 'colorpicker',
+		text_color: '#2b2928',
+		$accent_color_size: 'inline',
+		$accent_color_type: 'colorpicker',
+		accent_color: '#fafdff',
+	}
 }
