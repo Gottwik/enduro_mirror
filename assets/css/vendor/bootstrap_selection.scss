@@ -1,12 +1,12 @@
 // Core variables and mixins
+@import '../../vendor/bootstrap/scss/functions';
 @import '../../vendor/bootstrap/scss/variables';
 
 // Reset and dependencies
-@import '../../vendor/bootstrap/scss/normalize';
 @import '../../vendor/bootstrap/scss/mixins';
 
 // Core CSS
-// @import '../../vendor/bootstrap/scss/reboot';
+@import '../../vendor/bootstrap/scss/reboot';
 @import '../../vendor/bootstrap/scss/grid';
 
 // Utility classes
