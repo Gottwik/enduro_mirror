@@ -7,6 +7,12 @@
 		height: 100vh;
 	}
 
+	&.uplifted {
+		box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2);
+		position: relative;
+		z-index: 2;
+	}
+
 	@each $color in $scheme-colors {
 		$index: index($scheme-colors, $color);
 		&.color_#{$index} {

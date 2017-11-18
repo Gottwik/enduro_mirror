@@ -75,7 +75,7 @@
 	contact_email: 'contact@endurojs.com',
 	footer_text: '2017 @enduro.js mirror theme',
 	$footer_background_color_type: 'colorpicker',
-	footer_background_color: '#7e0343',
+	footer_background_color: '#423d3d',
 	page_title: 'Mirror - enduro.js theme',
 	display_edit_stamp: true,
 	$style_expander: true,
